@@ -75,6 +75,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GigHub\GigHub.csproj">
+      <Project>{C957D49F-8DFD-4DC2-A31A-110F519E9B37}</Project>
+      <Name>GigHub</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
