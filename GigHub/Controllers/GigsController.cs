@@ -5,12 +5,14 @@ using GigHub.Persistence;
 using Microsoft.AspNet.Identity;
 using System.Linq;
 using System.Web.Mvc;
+using System.Security.Principal;
 
 namespace GigHub.Controllers
 {
     public class GigsController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        
 
         public GigsController(IUnitOfWork unitOfWork)
         {
