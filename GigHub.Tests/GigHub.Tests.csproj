@@ -99,6 +99,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Controllers\Api\GigsControllerTests.cs" />
+    <Compile Include="Controllers\Api\AttendancesControllerTests.cs" />
     <Compile Include="Extensions\ApiControllerExtensions.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
