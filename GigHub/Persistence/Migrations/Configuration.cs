@@ -3,7 +3,7 @@ using System.Data.Entity.Migrations;
 
 namespace GigHub.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<ApplicationDbContext>
+    public sealed class Configuration : DbMigrationsConfiguration<ApplicationDbContext>
     {
         public Configuration()
         {
